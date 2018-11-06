@@ -1,0 +1,6 @@
+vertical-align和padding都能调节文字或图片在盒模型的里的位置。
+
+它们使用的情景有什么不同？
+最好使用vertical-align，而不使用padding
+
+使用vertical-align是不是通常跟着一起用到line-height?

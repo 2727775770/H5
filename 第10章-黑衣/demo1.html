@@ -1,0 +1,73 @@
+<!doctype html><!--声明文档类型 网页文档-->
+<html><!--根目录标签 父级-->
+	<head><!--网页的头部 用户看不见的区域 子级-->
+		<meta charset='UTF-8'><!--国际编码/万国码 字符的编码格式-->
+		<!--网页三要素 title keywords description-->
+		<title></title><!--网页的标题-->
+		<meta name='keywords' content=''><!--让搜索引擎找到我们的网站-->
+		<meta name='description' content=''>
+		<style> /* ccs层叠样式表里的注释 */
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			.nav{
+				background:url('images/topbg.jpg');
+				height:65px;
+				width:1200px;
+				margin:auto;
+			}
+			.nav .content{
+				width:1000px;
+				height:65px;
+				margin:auto;
+			}
+			.nav .content h1{
+				float:left;
+				background:url('images/weixin.png');
+				background-repeat:no-repeat;
+				background-position:center;
+				height:65px;
+				width:145px;
+			}
+			.nav .content ul{
+				float:right;
+				list-style-type:none;
+			}
+			.nav .content ul li{
+				float:left;
+				width:106px;
+				text-align:center;
+				line-height:65px;
+				color:white;
+				font-size:14px;
+			}
+			.nav .content clearfix:after{
+				content:'';
+				display:block;
+				clear:both;
+			}
+			.nav .content ul .on{
+				background:url('images/btn2.png');
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+		</style>
+	<body>
+		<div class='nav'>
+			<div class='clearfix content'>
+				<h1></h1>
+				<ul>
+					<li class='on'>首页</li>
+					<li>帮助</li>
+					<li>公众</li>
+					<li>微信</li>
+					<li>支付</li>
+					<li>网页版</li>
+					<li>表情</li>
+					<li>广告</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+<html>

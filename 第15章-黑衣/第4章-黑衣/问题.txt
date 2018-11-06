@@ -1,0 +1,6 @@
+
+用<ul>
+	<li>【强新品NO.666】不知道什么牌子的香水</li>
+</ul>
+最前面 标志圆圈怎么去掉
+list-style-type: none; 写在ul的css里面
